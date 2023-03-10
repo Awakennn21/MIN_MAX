@@ -1,6 +1,6 @@
 Sure, here's an example of how you can format the Minimax algorithm in a README.md file on GitHub:
 
-### Minimax Algorithm
+# Minimax Algorithm
 The Minimax algorithm is a decision-making algorithm used in game theory and decision theory. It is commonly used in two-player turn-based games to determine the optimal move for a player.
 
 ## How it works
