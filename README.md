@@ -13,12 +13,13 @@ The algorithm is called "minimax" because it alternates between minimizing the o
 ## Complexity
 The time complexity of the Minimax algorithm is exponential in the worst case, as it needs to evaluate all possible moves and their outcomes. However, it can be optimized using techniques such as alpha-beta pruning to reduce the search space.
 
-## Applications
-The Minimax algorithm is widely used in various fields, including:
--Game theory
--Decision theory
--Artificial intelligence
--Robotics
+## How to use it
+As of right now this implementation of Min-max algorithm is desigend to access whether the position of tic tac toe given on the start of a program as array of:
+zeros - if certain space is empty
+ones - if a player one ocuppies that place
+twos - if a player two ocuppies that place
+The outcome of a SOLVE_GAME_STATE command will determine whether one player with optimal play has a chance to win or is it a forced draw
+
 
 ## Conclusion
 The Minimax algorithm is a powerful decision-making algorithm that can be used to determine the optimal move in two-player turn-based games. While its time complexity is exponential, it can be optimized using various techniques to reduce the search space.
